@@ -9,6 +9,5 @@ const grid = new Muuri('.grid',{
 window.addEventListener('load', () => {
     grid.refreshItems().layout();
     
-    
     document.getElementById('grid').classList.add('refresh')
 });
